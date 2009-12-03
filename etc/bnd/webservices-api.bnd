@@ -1,0 +1,10 @@
+Bundle-SymbolicName: javax.xml
+Bundle-Name: metro
+Export-Package: \
+  javax.jws;version=@RELEASE_VERSION@, \
+  javax.jws.soap;version=@RELEASE_VERSION@, \
+  javax.xml.ws;version=2.2, \
+  javax.xml.ws.*;version=2.2, \
+  *
+Import-Package: *
+Private-Package: *
